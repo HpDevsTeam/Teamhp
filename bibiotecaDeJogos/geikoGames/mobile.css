@@ -1,0 +1,110 @@
+@import url(reset.css);
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.logotipo {}
+
+.logotipo img {
+    width: 200px;
+}
+
+.menu {
+    color: white;
+    display: none;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu li {
+    padding: 20px;
+}
+
+.menumobile {
+    display: none;
+}
+
+.ativarmenu {
+    display: block;
+}
+
+.ativarmenu img {
+    width: 50px;
+}
+
+.menumobile {
+    color: green;
+    text-shadow: 5px 5px 5px black;
+    position: absolute;
+    background-image: url(../imgs/abreMenu/fundoMenu.png);
+    height: 100%;
+    width: 300px;
+    display: none;
+}
+
+.menumobile ul {
+    list-style: none;
+    padding: 30px;
+}
+
+.menumobile li {
+    padding: 20px;
+}
+
+.fecharMenu {
+    font-size: 40px;
+}
+
+.copyright {
+    background-color: black;
+    text-align: center;
+    padding: 100px;
+    color: green;
+}
+
+
+.btoes {
+    display: flex;
+    flex-wrap: nowrap;
+        justify-content: center;
+        padding: 50px;
+        background-color: rgba(0, 0, 0, 0.945);
+}
+
+.btoes button {
+    margin: 8px;
+        padding: 5px;
+}
+
+
+
+
+.blocos {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    color: white;
+}
+
+.bloco {
+    text-align: center;
+    margin: 25px;
+}
+
+.bloco h4 {
+    padding: 20px;
+    color: green;
+}
+
+.bloco p {
+    text-align: left;
+    line-height: 30px;
+    margin: 20px;
+}
