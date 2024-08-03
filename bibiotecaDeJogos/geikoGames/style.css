@@ -1,36 +1,59 @@
 @import url(reset.css);
 
-.cabecalho{
+.cabecalho {
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: black;
 }
-.logotipo{
 
-}
-.logotipo img{
+.logotipo {}
+
+.logotipo img {
     width: 200px;
 }
-.menu{
+
+.menu {
     color: white;
 }
-.menu ul{
+
+.menu a {
+    color: green;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu a:hover {
+    color: rgba(0, 128, 0, 0.664);
+    text-decoration: underline;
+}
+
+.menu ul {
     display: flex;
     list-style: none;
 }
-.menu li{
+
+.menu li {
     padding: 20px;
 }
-.menumobile{
+
+.menumobile {
     display: none;
 }
-.ativarmenu{
+
+.menumobile a {
+    color: green;
+    text-decoration: none;
+}
+
+.ativarmenu {
     display: none;
 }
-.ativarmenu img{
+
+.ativarmenu img {
     width: 50px;
 }
+
 .menumobile {
     color: green;
     text-shadow: 5px 5px 5px black;
@@ -53,6 +76,7 @@
 .fecharMenu {
     font-size: 40px;
 }
+
 .copyright {
     background-color: black;
     text-align: center;
@@ -61,36 +85,83 @@
 }
 
 
-
-.btoes{
-    display: flex;
-        justify-content: center;
-        padding: 50px;
-        background-color: rgba(0, 0, 0, 0.945);
+.maisconteudos {
+    display: none;
 }
-.btoes button{
+
+.btoes {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.945);
+}
+
+.btoes button {
     font-size: 20px;
-        padding: 15px;
-        margin: 30px 10px;
+    padding: 15px;
+    margin: 30px 10px;
 }
 
-
-
-.blocos{
-    display: flex;
-        background-color: black;
-        color: white;
-}
-.bloco{
-    text-align: center;
-        margin: 25px;
-}
-.bloco h4{
+.alinharsobre {
+    background-color: rgba(0, 0, 0, 0.945);
+    color: white;
     padding: 20px;
-        color: green;
 }
-.bloco p{
+
+.sobre {
+    display: flex;
+    justify-content: center;
+}
+
+.sobre img {
+    width: 600px;
+    height: 250px;
+}
+
+.textosobre {
+    text-align: center;
+}
+
+.textosobre h1 {
+    padding: 30px;
+}
+
+.textosobre h2 {
+    padding: 20px;
+}
+
+.textosobre p {
+    margin: 50px;
+    line-height: 30px;
+}
+
+.urls a {
+    color: green;
+    transition: 0.5s;
+}
+
+.urls a:hover {
+    color: rgba(0, 128, 0, 0.616);
+}
+
+.blocos {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.bloco {
+    text-align: center;
+    margin: 25px;
+}
+
+.bloco h4 {
+    padding: 20px;
+    color: green;
+}
+
+.bloco p {
     text-align: left;
-        line-height: 30px;
-        margin: 20px;
+    line-height: 30px;
+    margin: 20px;
 }

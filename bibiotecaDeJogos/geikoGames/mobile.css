@@ -73,17 +73,21 @@
 .btoes {
     display: flex;
     flex-wrap: nowrap;
-        justify-content: center;
-        padding: 50px;
-        background-color: rgba(0, 0, 0, 0.945);
+    justify-content: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.945);
 }
 
 .btoes button {
     margin: 8px;
-        padding: 5px;
+    padding: 5px;
 }
 
-
+.textosobre p {
+    text-align: left;
+    margin: 20px;
+    line-height: 30px;
+}
 
 
 .blocos {
