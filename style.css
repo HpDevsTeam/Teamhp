@@ -91,7 +91,7 @@
     transition: 0.5s;
 }
 .postagens a:hover{
-    color: rgba(0, 128, 0, 0.692);
+    color: rgba(0, 128, 0, 0.596);
     text-decoration: underline;
 }
 .postagens{

@@ -7,7 +7,7 @@
     background-color: black;
 }
 
-.logotipo {}
+/*.logotipo {}*/
 
 .logotipo img {
     width: 200px;
@@ -68,6 +68,9 @@
     color: green;
 }
 
+.redes a{
+    text-decoration: none;
+}
 
 .maisconteudos {
     display: none;
